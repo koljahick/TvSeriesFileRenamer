@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{30908A95-0E03-46F3-8488-F77027560F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{8219D92B-4EFA-4B31-96A8-6DF796B9082F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{4E7E4A75-CCD3-4145-899F-019923CF3F43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{283F7C3D-5D2F-43B4-AA27-F3971843FB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeriesFileRenamer.View", "TvSeriesFileRenamer.View\TvSeriesFileRenamer.View.csproj", "{410A7405-9495-4A95-B92D-88281E54E5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeriesFileRenamer.ViewModel", "TvSeriesFileRenamer.ViewModel\TvSeriesFileRenamer.ViewModel.csproj", "{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeriesFileRenamer.Model", "TvSeriesFileRenamer.Model\TvSeriesFileRenamer.Model.csproj", "{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvSeriesFileRenamer.View.Style", "TvSeriesFileRenamer.View.Style\TvSeriesFileRenamer.View.Style.csproj", "{7D0EABF6-A0B1-4155-AB04-4C8879008287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410A7405-9495-4A95-B92D-88281E54E5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410A7405-9495-4A95-B92D-88281E54E5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410A7405-9495-4A95-B92D-88281E54E5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410A7405-9495-4A95-B92D-88281E54E5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0EABF6-A0B1-4155-AB04-4C8879008287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0EABF6-A0B1-4155-AB04-4C8879008287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0EABF6-A0B1-4155-AB04-4C8879008287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0EABF6-A0B1-4155-AB04-4C8879008287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{410A7405-9495-4A95-B92D-88281E54E5EB} = {8219D92B-4EFA-4B31-96A8-6DF796B9082F}
+		{713B09C9-1D3E-4B29-8CC8-61DBB0B52CD4} = {4E7E4A75-CCD3-4145-899F-019923CF3F43}
+		{E3E5A99C-EDAD-47F0-9ECA-0DCAB316DF00} = {30908A95-0E03-46F3-8488-F77027560F53}
+		{7D0EABF6-A0B1-4155-AB04-4C8879008287} = {8219D92B-4EFA-4B31-96A8-6DF796B9082F}
+	EndGlobalSection
+EndGlobal
